@@ -1,0 +1,1 @@
+docker run -v $PWD:/workspace --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -d --name ctfbox -i ctfbox
